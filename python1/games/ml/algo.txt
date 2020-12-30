@@ -1,0 +1,28 @@
+Build snake game by python, "State", numpy, 4 actions.
+
+value function:
+  ANN, 4 outputs
+  feature selection
+  get value by weights and features
+  update weights
+
+State:
+  grid, snake, dest, apple ...
+
+Actions:
+  [0,1,2,3] top, bot ...
+
+Reward:
+  best reward from state and action
+  policy
+  update policy
+
+Unknown:
+  linear vlaue function: v^(s,w) = ∑ w[i]x[i](S)
+  mean squared value error (VE): ∑u(s)[v_π(s)-v^(s,w)]^2
+  calc n steps ahead
+  gradient decent monte carlo
+  true value
+  TD error
+  step size
+  linear weights, x(s) feature vector

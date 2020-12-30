@@ -1,0 +1,14 @@
+
+[Enviorment]
+[Agent]
+[State]         : s, s`, S, S_t
+[Action]        : a, A_t
+[Reward]        : r, R_t
+[Time step]     : t, T
+[Policy]        : π
+[Return]        : G_t
+[Probability]   : p, p(s`,r | s,a), p(s` | s,a)
+[Value]         : V, V_t, v_π(s), v_*(s)
+[TD error]      : ∂
+[Distributuin]  : µ, µ(s)
+[Vector]        : x(s), x(s,a), x_t
